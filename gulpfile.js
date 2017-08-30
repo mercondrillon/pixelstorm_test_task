@@ -23,7 +23,7 @@ gulp.task('sass', function() {
             this.emit('end') }
         }))
         .pipe(sass({
-            outputStyle: 'compact'
+            outputStyle: 'compressed'
         }))
         .pipe(autoprefixer({
             browsers: ['last 2 versions', '> 5%', 'Firefox ESR']
