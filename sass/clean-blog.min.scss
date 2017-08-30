@@ -1,6 +1,10 @@
 @import "modules/variables.scss";
 @import "modules/mixins.scss";
 
+*:hover{
+    @include transition-all();
+}
+
 body {
 	font-size: 20px;
 	color: $gray-dark;
@@ -426,7 +430,6 @@ form .row:first-child .floating-label-form-group {
 
 
 // -- Highlight Color Customization
-
 ::-moz-selection {
 	color: white;
 	text-shadow: none;
