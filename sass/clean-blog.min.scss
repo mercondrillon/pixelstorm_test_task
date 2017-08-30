@@ -282,6 +282,7 @@ hr.small {
 	border-bottom-left-radius: 5px;
 }
 
+// Footer
 footer {
 	padding: 50px 0 65px;
 	.list-inline {
@@ -417,6 +418,12 @@ form .row:first-child .floating-label-form-group {
 		}
 	}
 }
+
+// Social Links
+.social-link{
+    display: inline-block;
+}
+
 
 // -- Highlight Color Customization
 
